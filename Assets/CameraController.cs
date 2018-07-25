@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Vector3 last= new Vector3(-5,3,0);
+        Vector3 last= new Vector3(-5,-5,0);
         Vector3 forward = new Vector3(0, 0, 0);
         for (int i = 0; i < 1000; i++)
         {
