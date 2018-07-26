@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour {
 	void Start () {
         Vector3 last= new Vector3(-5,-5,0);
         Vector3 forward = new Vector3(0, 0, 0);
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < 1; i++)
         {
             GameObject prefab = (GameObject)Instantiate(Resources.Load("FloorBlock"),last+forward , Quaternion.identity);
             prefab.transform.Rotate(Vector3.forward, -45f );
