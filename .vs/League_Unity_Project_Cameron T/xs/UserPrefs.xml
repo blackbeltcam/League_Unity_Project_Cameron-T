@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{354D4BD3-02F4-3066-06C1-6B505EDDC7E9}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Player.cs">
     <Files>
       <File FileName="Assets/CameraController.cs" Line="12" Column="30" />
       <File FileName="Assets/Player.cs" Line="7" Column="21" />

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
     bool grounded = false;
-    float jump = 500;
+    float jump = 250;
     Rigidbody2D rb;
 	// Use this for initialization
 	void Start () {
@@ -17,6 +17,7 @@ public class Player : MonoBehaviour {
             rb.AddForce(new Vector3(0, jump, 0));
         grounded = false;
         }
+        transform.localScale = transform.localScale + new Vector3(0.001f, 0.001f, 0.001f);
         }
     public void OnCollisionEnter2D()
     {
